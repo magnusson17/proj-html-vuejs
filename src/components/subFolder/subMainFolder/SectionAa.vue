@@ -11,11 +11,11 @@
 </template>
 
 <script>
-import PartOne from './subSectionOne/PartOne.vue';
-import PartTwo from './subSectionOne/PartTwo.vue';
+import PartOne from './subSectionAa/PartOne.vue';
+import PartTwo from './subSectionAa/PartTwo.vue';
 
 export default {
-    name: 'SectionOne',
+    name: 'SectionAa',
     components: {
         PartOne,
         PartTwo,

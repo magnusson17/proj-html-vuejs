@@ -1,24 +1,24 @@
 <template>
     <div>
         <div>
-            <SectionOne/>
+            <SectionAa/>
         </div>
 
         <div>
-            <SectionTwo/>
+            <SectionBb/>
         </div>
     </div>
 </template>
 
 <script>
-import SectionOne from './subFolder/subMainFolder/SectionOne.vue';
-import SectionTwo from './subFolder/subMainFolder/SectionTwo.vue';
+import SectionAa from './subFolder/subMainFolder/SectionAa.vue';
+import SectionBb from './subFolder/subMainFolder/SectionBb.vue';
 
 export default {
     name: 'MainComp',
     components: {
-        SectionOne,
-        SectionTwo,
+        SectionAa,
+        SectionBb,
     }
 }
 </script>
