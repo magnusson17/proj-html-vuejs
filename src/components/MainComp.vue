@@ -15,6 +15,14 @@
         <div>
             <SectionDd/>
         </div>
+
+        <div>
+            <SectionEe/>
+        </div>
+
+        <div>
+            <SectionFf/>
+        </div>
     </div>
 </template>
 
@@ -23,6 +31,8 @@ import SectionAa from './subFolder/subMainFolder/SectionAa.vue';
 import SectionBb from './subFolder/subMainFolder/SectionBb.vue';
 import SectionCc from './subFolder/subMainFolder/SectionCc.vue';
 import SectionDd from './subFolder/subMainFolder/SectionDd.vue';
+import SectionEe from './subFolder/subMainFolder/SectionEe.vue';
+import SectionFf from './subFolder/subMainFolder/SectionFf.vue';
 
 export default {
     name: 'MainComp',
@@ -31,6 +41,8 @@ export default {
         SectionBb,
         SectionCc,
         SectionDd,
+        SectionEe,
+        SectionFf,
     }
 }
 </script>
