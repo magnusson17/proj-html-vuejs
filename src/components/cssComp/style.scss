@@ -42,8 +42,24 @@
     text-transform: capitalize;
 }
 
+.text_uppercase {
+    text-transform: uppercase;
+}
+
 .text_center {
     text-align: center;
+}
+
+.text_ff4612 {
+    color: #ff4612;
+}
+// FONT
+.fw_bold {
+    font-weight: bold;
+}
+
+.fs_3em {
+    font-size: 3em;
 }
 // BACKGROUND
 .bg_orange {
@@ -57,3 +73,35 @@
 .bg_black {
     background-color: black;
 }
+// BUTTONS
+.btn_basic {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn_white {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.btn_white:hover {
+    background-color: black;
+    color: white;
+}
+
+.btn_orange {
+    background-color: #ff4612;
+    border: 1px solid #ff4612;
+    color: white;
+}
+
+.btn_orange:hover {
+    border: 1px solid black;
+    color: black;
+}
+
