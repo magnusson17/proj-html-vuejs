@@ -1,6 +1,6 @@
 <template>
     <div class="section_one_1st_div">
-        <div class="w_50">
+        <div class="w_90">
             <PartOne/>
         </div>
 

@@ -7,7 +7,7 @@
                     <h2 class="text_capitalize fs_3em">
                         our team<span class="text_ff4612">.</span>
                     </h2>
-                    <p>
+                    <p class="text_a6a6a6">
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore praesentium deserunt architecto harum dolore suscipit, cumque, ab veniam ducimus sapiente magni expedita consectetur quis facilis perspiciatis quibusdam at doloribus. Excepturi.
                     </p>
                     <div>

@@ -1,4 +1,12 @@
 // WIDTH
+.w_5 {
+    width: 5%;
+}
+
+.w_10 {
+    width: 10%;
+}
+
 .w_25 {
     width: 25%;
 }
@@ -9,6 +17,10 @@
 
 .w_50 {
     width: 50%;
+}
+
+.w_90 {
+    width: 90%;
 }
 
 .w_100 {
@@ -52,6 +64,10 @@
 
 .text_ff4612 {
     color: #ff4612;
+}
+
+.text_a6a6a6 {
+    color: #a6a6a6;
 }
 // FONT
 .fw_bold {
@@ -103,5 +119,10 @@
 .btn_orange:hover {
     border: 1px solid black;
     color: black;
+}
+// HR
+.little_hr {
+    border: 1px solid #ff4612;
+    border-radius: 10px;
 }
 
