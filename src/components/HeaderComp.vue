@@ -1,7 +1,7 @@
 <template>
     <div class="header_comp_1st_div">
         <NavBar/>
-        <div>
+        <div class="w_50">
             <h2>
                 prova
             </h2>
@@ -28,9 +28,10 @@ export default {
 
 <style scoped lang="scss">
 @import './cssComp/mixin.scss';
+@import './cssComp/style.scss';
 
 .header_comp_1st_div {
     @include backgroundBasic(no-repeat, cover, center);
-    background-image: url();
+    background-image: url('../assets/img/rev-slider-main-home-img-03.jpg');
 }
 </style>
