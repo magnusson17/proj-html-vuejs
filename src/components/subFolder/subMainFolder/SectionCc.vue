@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="section_cc_1st_div">
         <div>
             <PartAacc/>
         </div>
@@ -27,7 +27,7 @@ export default {
 @import '../../cssComp/mixin.scss';
 @import '../../cssComp/style.scss';
 
-.section_one_1st_div {
-    @include displayFlexBasic(flex, column, center, center);
+.section_cc_1st_div {
+    @include displayFlexBasic(flex, row, center, center);
 }
 </style>
