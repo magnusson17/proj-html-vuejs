@@ -18,8 +18,4 @@ export default {
 <style scoped lang="scss">
 @import './cssComp/mixin.scss';
 @import './cssComp/style.scss';
-
-.main_comp_1st_div {
-    @include displayFlexBasic(flex, row, center, center)
-}
 </style>
