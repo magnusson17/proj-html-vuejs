@@ -3,7 +3,7 @@
     <div class="part_bbcc_1st_div">
         <div class="w_40">
             <h2>
-                OOOOOOOO
+                latest news.
             </h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Error odit, sit praesentium labore culpa sapiente molestias expedita? Non, delectus ullam ducimus at blanditiis maxime molestias in quasi. Porro, repellendus quia?
