@@ -1,5 +1,5 @@
 <template>
-<!-- components -> subFolder -> subMainFolder -> subSectionOne -> PartOne.vue -->
+<!-- components -> subFolder -> subMainFolder -> subSectionAc -> PartOne.vue -->
     <div class="part_one_1st_div">
         <div class="part_one_1st_div__container1">
             <h2 class="text_capitalize">

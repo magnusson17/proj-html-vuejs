@@ -1,5 +1,5 @@
 <template>
-<!-- components -> subFolder -> subMainFolder -> subSectionOne -> PartTwo.vue -->
+<!-- components -> subFolder -> subMainFolder -> subSectionAa -> PartTwo.vue -->
     <div class="part_two_1st_div">
         <div>
             <img src="../../../../assets/img/h1-img-01.jpg" alt="">

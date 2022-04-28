@@ -1,24 +1,24 @@
 <template>
-    <div class="section_one_1st_div">
-        <div class="w_50">
-            <PartOne/>
+    <div>
+        <div>
+            <PartAacc/>
         </div>
 
         <div>
-            <PartTwo/>
+            <PartBbcc/>
         </div>
     </div>
 </template>
 
 <script>
-import PartOne from './subSectionOne/PartOne.vue';
-import PartTwo from './subSectionOne/PartTwo.vue';
+import PartAacc from './subSectionCc/PartAacc.vue'
+import PartBbcc from './subSectionCc/PartBbcc.vue'
 
 export default {
     name: 'SectionCc',
     components: {
-        PartOne,
-        PartTwo,
+        PartAacc,
+        PartBbcc,
     }
 }
 </script>
