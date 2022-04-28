@@ -8,9 +8,7 @@
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore, neque id sunt rerum at voluptates qui dolor vel, ratione, quisquam placeat nostrum officiis suscipit! Vel eos ex quam amet.
             </p>
-            <div>
-                <hr>
-            </div>
+            <hr class="w_100">
         </div>
 
         <div class="part_one_1st_div__container2">
