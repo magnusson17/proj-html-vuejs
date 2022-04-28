@@ -28,6 +28,6 @@ export default {
 @import '../../cssComp/style.scss';
 
 .section_cc_1st_div {
-    @include displayFlexBasic(flex, row, center, center);
+    @include displayFlexBasic(flex, column, center, center);
 }
 </style>
