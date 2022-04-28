@@ -1,7 +1,20 @@
 <template>
 <!-- components -> subFolder -> subMainFolder -> subSectionCc -> PartAacc.vue -->
     <div class="part_aacc_1st_div">
-        <div class="w_50 p_60">
+        <div class="w_40 p_60">
+            <h2 class="text_capitalize">
+                creative leader
+            </h2>
+            <hr>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, natus! Quasi voluptatum repellat, debitis quam impedit fugiat neque, adipisci voluptatibus provident consectetur dolorem recusandae. Porro laborum quaerat cupiditate. Quibusdam, quos?
+            </p>
+            <h6>
+                read more
+            </h6>
+        </div>
+
+        <div class="w_40 p_60">
             <h2 class="text_capitalize">
                 creative leader
             </h2>
