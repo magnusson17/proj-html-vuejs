@@ -7,8 +7,16 @@
     width: 10%;
 }
 
+.w_17 {
+    width: 17%;
+}
+
 .w_20 {
     width: 20%;
+}
+
+.w_22 {
+    width: 22%;
 }
 
 .w_25 {
@@ -17,6 +25,10 @@
 
 .w_33 {
     width: 33%;
+}
+
+.w_35 {
+    width: 35%;
 }
 
 .w_40 {
@@ -31,8 +43,24 @@
     width: 50%;
 }
 
+.w_65 {
+    width: 65%;
+}
+
+.w_78 {
+    width: 78%;
+}
+
+.w_83 {
+    width: 83%;
+}
+
 .w_90 {
     width: 90%;
+}
+
+.w_95 {
+    width: 95%;
 }
 
 .w_100 {
@@ -97,6 +125,11 @@
 
 .p_60 {
     padding: 60px;
+}
+
+.py_10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .py_20 {
@@ -198,7 +231,7 @@
 }
 // HR
 .little_hr {
-    border: 1px solid #ff4612;
+    border: 2px solid #ff4612;
     border-radius: 10px;
 }
 // OVERFLOW
