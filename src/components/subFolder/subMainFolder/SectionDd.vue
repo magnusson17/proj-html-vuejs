@@ -1,5 +1,5 @@
 <template>
-    <div class="section_dd_1st_div bg_gray p_20">
+    <div class="section_dd_1st_div bg_gray p_60">
         <div class="section_dd_1st_div__row">
 
             <div @click="lessIndexBe()">
@@ -8,12 +8,12 @@
 
             <div class="section_dd_1st_div__row__col w_50">
                 <!-- <img :src="`../../../assets/img/${this.testimonials[this.indexBe].img}`" alt="img"> -->
-                <img src="../../../assets/img/h3-img-04.png" alt="img">
+                <img src="../../../assets/img/h3-img-04.png" alt="img" class="mb_10">
                 <h4 class="text_white text_capitalize">
                     {{this.testimonials[this.indexBe].name}}
                 </h4>
                 <p class="text_white">
-                    {{this.testimonials[this.indexBe].quote}}
+                    "{{this.testimonials[this.indexBe].quote}}"
                 </p>
                 <div class="w_100 pallini_slider">
                     <div 
@@ -21,7 +21,7 @@
                     v-for="(element, index) in testimonials" 
                     :key="index"
                     :class="(index == indexBe) ? 'text_white' : '' ">
-                        <i class="fa-solid fa-circle fs_2em"></i>
+                        <i class="fa-solid fa-circle fs_1.5em"></i>
                     </div>
                 </div>
             </div>
@@ -96,5 +96,9 @@ export default {
 
 .pallini_slider {
     @include displayFlexBasic(flex, row, center, center);
+}
+
+h4 {
+    margin: 0;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
 <!-- components -> subFolder -> subMainFolder -> subSectionAacc -> PartOne.vue -->
-    <div class="part_one_1st_div">
+    <div class="part_one_1st_div bg_white py_50">
         <div class="part_one_1st_div__container1">
             <h2 class="text_capitalize">
                 our specialities<span class="text_ff4612">.</span>
@@ -69,9 +69,9 @@ export default {
     @include displayFlexBasic(flex, column, center, center);
 }
 
-// .part_one_1st_div {
-//     margin-top: -50px;
-// }
+.part_one_1st_div {
+    margin-top: -50px;
+}
 
 .part_one_1st_div__container2 {
     @include displayFlexBasic(flex, row, center, center);

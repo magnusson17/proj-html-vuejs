@@ -1,9 +1,9 @@
 <template>
-    <div class="header_comp_1st_div h_70vh">
+    <div class="header_comp_1st_div">
         <NavBar/>
         <div class="w_50">
             <div class="header_comp_1st_div__row">
-                <div class="w_50">
+                <div class="w_50 mb_150">
                     <h2 class="text_capitalize fs_3em">
                         our team<span class="text_ff4612">.</span>
                     </h2>

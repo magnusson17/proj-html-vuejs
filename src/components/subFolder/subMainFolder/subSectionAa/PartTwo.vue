@@ -19,11 +19,12 @@
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum, illo ipsum perspiciatis fugiat incidunt, qui est natus, doloremque alias aspernatur eum omnis nisi expedita hic. Rem culpa at velit alias?
             </p>
             <div class="part_two_1st_div__container2__link_and_signiature">
-                <div>
-                    1
+                <div class="fs_1_5em text_ff4612">
+                    <i class="fa-brands fa-facebook-square mr_10"></i>
+                    <i class="fa-brands fa-twitter-square mr_10"></i>
                 </div>
                 <div>
-                    2
+                    jp
                 </div>
             </div>
         </div>
