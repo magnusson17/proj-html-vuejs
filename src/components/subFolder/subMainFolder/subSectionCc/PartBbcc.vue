@@ -1,30 +1,35 @@
 <template>
 <!-- components -> subFolder -> subMainFolder -> subSectionCc -> PartBbcc.vue -->
     <div class="part_bbcc_1st_div">
-        <div class="w_40">
-            <h2>
-                latest news.
+        <div class="row w_40">
+            <h2 class="text_capitalize">
+                latest news<span class="text_ff4612">.</span>
             </h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error odit, sit praesentium labore culpa sapiente molestias expedita? Non, delectus ullam ducimus at blanditiis maxime molestias in quasi. Porro, repellendus quia?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error odit, sit praesentium labore culpa sapiente molestias expedita?
             </p>
-            <hr>
+            <div class="w_10">
+                <hr class="little_hr">
+            </div>
         </div>
 
         <div class="part_bbcc_1st_div__container2">
             <div class="part_bbcc_1st_div__container2__row">
-                <div v-for="div in 3" :key="div" class="w_25 p_20">
-                    <img src="" alt="img">
-                    <span>
-                        comacose
-                    </span>
-                    <h3>
-                        next investment
+                <div v-for="(element, index) in latestNewsArray" :key="index" class="w_25 p_20">
+                    <img src="../../../../assets/img/h1-blog-img-01.jpg" alt="img" class="w_100">
+                    <p class="fs_0_6em text_a6a6a6 text_capitalize">
+                        <i class="fa-regular fa-clock text_ff4612"></i>
+                        {{element.date.number}},{{element.date.month}},{{element.date.year}},
+                        <i class="fa-regular fa-user text_ff4612"></i>
+                        {{element.reporter}}
+                    </p>
+                    <h3 class="text_capitalize">
+                        {{element.text}}
                     </h3>
                     <p>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor dolore deserunt, quam officiis blanditiis maiores soluta illum error earum accusantium inventore magnam quia nemo perspiciatis veritatis aut dolorum quidem eius.
                     </p>
-                    <h6>
+                    <h6 class="text_uppercase">
                         read more
                     </h6>
                 </div>
@@ -36,6 +41,43 @@
 <script>
 export default {
     name: 'PartBbcc',
+
+    data() {
+        return {
+            latestNewsArray: [
+                {
+                    text: 'next investment',
+                    img: 'h1-blog-img-01.jpg',
+                    date: {
+                        number: 5,
+                        month: 'may',
+                        year: 2022,
+                    },
+                    reporter: 'amanda joa'
+                },
+                {
+                    text: 'team building',
+                    img: 'h1-blog-img-02.jpg',
+                    date: {
+                        number: 5,
+                        month: 'may',
+                        year: 2022,
+                    },
+                    reporter: 'pinco pallino'
+                },
+                {
+                    text: 'new busisness day',
+                    img: 'h1-blog-img-03.jpg',
+                    date: {
+                        number: 5,
+                        month: 'may',
+                        year: 2022,
+                    },
+                    reporter: 'papu gomez'
+                },
+            ]
+        }
+    }
 }
 </script>
 
@@ -49,5 +91,9 @@ export default {
 
 .part_bbcc_1st_div__container2__row {
     @include displayFlexBasic(flex, row, center, center);
+}
+
+.row {
+    @include displayFlexBasic(flex, column, center, center);
 }
 </style>
