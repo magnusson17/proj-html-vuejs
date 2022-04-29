@@ -14,14 +14,13 @@
                 <p class="text_white">
                     {{this.testimonials[this.indexBe].quote}}
                 </p>
-                <div class="w_100">
-                    <div
+                <div class="w_100 pallini_slider">
+                    <div 
+                    class="mx_20"
                     v-for="(element, index) in testimonials" 
-                    :key="index" 
-                    class="w_33 d_inline_block"
-                    >
-                    <!-- :class="(index = this.indexBe) ? 'little_hr' : '' " -->
-                        <hr class="w_100">
+                    :key="index"
+                    :class="(index == indexBe) ? 'text_white' : '' ">
+                        <i class="fa-solid fa-circle fs_2em"></i>
                     </div>
                 </div>
             </div>
@@ -67,7 +66,7 @@ export default {
     methods: {
         plusIndexBe() {
             this.indexBe++
-            if (this.indexBe == this.testimonials.length) {
+            if (this.indexBe > (this.testimonials.length - 1)) {
                 this.indexBe = 0
             }
         },
@@ -92,5 +91,9 @@ export default {
 
 .section_dd_1st_div__row__col {
     @include displayFlexBasic(flex, column, center, center);
+}
+
+.pallini_slider {
+    @include displayFlexBasic(flex, row, center, center);
 }
 </style>
