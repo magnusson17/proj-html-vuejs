@@ -1,6 +1,6 @@
 <template>
     <div class="section_one_1st_div">
-        <div class="w_90">
+        <div class="w_90 bg_white">
             <PartOne/>
         </div>
 
@@ -29,5 +29,6 @@ export default {
 
 .section_one_1st_div {
     @include displayFlexBasic(flex, column, center, center);
+    background-color: #f9f9f9;
 }
 </style>

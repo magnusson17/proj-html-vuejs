@@ -16,7 +16,8 @@
             v-for="(element, index) in ourSpecialitiesArray" 
             :key="index"
             class="p_20">
-                <img :src='`../../../../assets/img/${element.img}`' alt="img">
+                <!-- <img :src='`../../../../assets/img/${element.img}`' alt="img"> -->
+                <img src='../../../../assets/img/svg-2.svg' alt="img">
                 <h6>
                     {{element.name}}
                 </h6>
@@ -67,6 +68,10 @@ export default {
 .part_one_1st_div, .part_one_1st_div__container1 {
     @include displayFlexBasic(flex, column, center, center);
 }
+
+// .part_one_1st_div {
+//     margin-top: -50px;
+// }
 
 .part_one_1st_div__container2 {
     @include displayFlexBasic(flex, row, center, center);
