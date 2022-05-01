@@ -1,8 +1,8 @@
 <template>
-    <div class="section_dd_1st_div bg_gray p_60">
+    <div class="section_dd_1st_div bg_1e1e1e p_60">
         <div class="section_dd_1st_div__row">
 
-            <div @click="lessIndexBe()">
+            <div @click="lessIndexBe()" class="text_white">
                 <i class="fa-solid fa-arrow-left-long"></i>
             </div>
 
@@ -26,7 +26,7 @@
                 </div>
             </div>
 
-            <div @click="plusIndexBe()">
+            <div @click="plusIndexBe()" class="text_white">
                 <i class="fa-solid fa-arrow-right-long"></i>
             </div>
 

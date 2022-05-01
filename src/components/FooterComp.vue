@@ -11,8 +11,9 @@
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, dolorum doloremque recusandae ab aperiam accusantium repellendus veritatis, nam impedit molestias maxime tenetur iure debitis deserunt, eum voluptatibus nesciunt aliquid porro?
                 </p>
-                <div>
-                    img
+                <div class="fs_1_5em text_ff4612">
+                    <i class="fa-brands fa-facebook-square mr_10"></i>
+                    <i class="fa-brands fa-twitter-square mr_10"></i>
                 </div>
             </div>
 
@@ -41,7 +42,7 @@
                 <div class="w_10">
                     <hr class="little_hr w_100">
                 </div>
-                <ul>
+                <ul class="ul_no_style">
                     <li>
                         About me
                     </li>
@@ -67,13 +68,23 @@
                 <div class="w_10">
                     <hr class="little_hr w_100">
                 </div>
-                <span>1</span>
+                <div class="text_ff4612">
+                    <p>
+                        <i class="fa-solid fa-location-dot"></i>
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-phone"></i>
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-envelope"></i>
+                    </p>
+                </div>
             </div>
         </div>
 
         <div class="row bg_ff4612 p_10">
             <div>
-                <span>hoooooooooooooooooooooooo</span>
+                <span>copyrigth gaCompany</span>
             </div>
         </div>
     </div>
@@ -93,6 +104,14 @@ export default {
 
 .row {
     @include displayFlexBasic(flex, row, center, start)
+}
+
+.ul_no_style {
+    list-style-type: none;
+    padding-left: 0px;
+        li {
+            padding-top: 5px;
+        }
 }
 
 // li::marker {

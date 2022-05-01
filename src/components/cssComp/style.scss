@@ -6,6 +6,8 @@ $text_2nd_color: #ff4612;
 $bg_color: #ff4612;
 
 $bg_2nd_color: #f9f9f9;
+
+$bg_3rd_color: #1e1e1e;
 // WIDTH
 .w_5 {
     width: 5%;
@@ -242,6 +244,10 @@ $bg_2nd_color: #f9f9f9;
 
 .bg_f9f9f9 {
     background-color: $bg_2nd_color;
+}
+
+.bg_1e1e1e {
+    background-color: $bg_3rd_color;
 }
 
 .bg_orange {
