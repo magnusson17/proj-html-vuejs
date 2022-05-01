@@ -16,7 +16,7 @@
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas impedit cupiditate quisquam possimus, error praesentium qui labore ipsum? Numquam eveniet ipsa debitis perferendis quae corrupti eligendi quasi facilis harum eos.
                 </p>
                 <form class="w_100 py_20" action="">
-                    <div class="w_100 mb_20 o">
+                    <div class="w_100 mb_20">
                         <input class="d_inline_block w_48" type="text" placeholder="Your name">
                         <input class="d_inline_block w_48" type="mail" placeholder="Your e-mail">
                     </div>
@@ -29,20 +29,25 @@
         </div>
 
         <div class="section_ff_1st_div__row2 mt_60">
-            <div class="p_20">
-                <img src="../../../assets/img/h4-clients-img-01.png" alt="">
+            <div class="p_20 hover">
+                <img src="../../../assets/img/h4-clients-img-01.png" alt="img" class="hover_none">
+                <img src="../../../assets/img/h4-clients-img-02.png" alt="img" class="hover_block d_none">
             </div>
-            <div class="p_20">
-                <img src="../../../assets/img/h4-clients-img-03.png" alt="">
+            <div class="p_20 hover">
+                <img src="../../../assets/img/h4-clients-img-03.png" alt="img" class="hover_none">
+                <img src="../../../assets/img/h4-clients-img-04-1.png" alt="img" class="hover_block d_none">
             </div>
-            <div class="p_20">
-                <img src="../../../assets/img/h4-clients-img-05.png" alt="">
+            <div class="p_20 hover">
+                <img src="../../../assets/img/h4-clients-img-05.png" alt="img" class="hover_none">
+                <img src="../../../assets/img/h4-clients-img-06-1.png" alt="img" class="hover_block d_none">
             </div>
-            <div class="p_20">
-                <img src="../../../assets/img/h4-clients-img-07.png" alt="">
+            <div class="p_20 hover">
+                <img src="../../../assets/img/h4-clients-img-07.png" alt="img" class="hover_none">
+                <img src="../../../assets/img/h4-clients-img-08-1.png" alt="img" class="hover_block d_none">
             </div>
-            <div class="p_20">
-                <img src="../../../assets/img/h4-clients-img-09.png" alt="">
+            <div class="p_20 hover">
+                <img src="../../../assets/img/h4-clients-img-09.png" alt="img" class="hover_none">
+                <img src="../../../assets/img/h4-clients-img-10-1.png" alt="img" class="hover_block d_none">
             </div>
         </div>
     </div>
@@ -51,8 +56,6 @@
 <script>
 export default {
     name: 'SectionFf',
-    components: {
-    }
 }
 </script>
 
@@ -78,9 +81,16 @@ form {
         border: none;
         border-bottom: 1px solid black;
     }
+    div {
+        @include displayFlexBasic(flex, row, space-between, center);
+    }
 }
 
-.o {
-    @include displayFlexBasic(flex, row, space-between, center);
+.hover:hover .hover_none {
+    display: none;
+}
+
+.hover:hover .hover_block {
+    display: block;
 }
 </style>

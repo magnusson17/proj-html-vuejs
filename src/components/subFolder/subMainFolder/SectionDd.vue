@@ -7,7 +7,7 @@
             </div>
 
             <div class="section_dd_1st_div__row__col w_50">
-                <!-- <img :src="`../../../assets/img/${this.testimonials[this.indexBe].img}`" alt="img"> -->
+                <!-- <img :src='`../../../assets/img/${testimonials[indexBe].img}`' alt="img"> -->
                 <img src="../../../assets/img/h3-img-04.png" alt="img" class="mb_10">
                 <h4 class="text_white text_capitalize">
                     {{this.testimonials[this.indexBe].name}}
