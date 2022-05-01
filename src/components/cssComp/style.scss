@@ -1,3 +1,11 @@
+// VARIABLES
+$text_color: #a6a6a6;
+
+$text_2nd_color: #ff4612;
+
+$bg_color: #ff4612;
+
+$bg_2nd_color: #f9f9f9;
 // WIDTH
 .w_5 {
     width: 5%;
@@ -193,11 +201,11 @@
 }
 // color
 .text_ff4612 {
-    color: #ff4612;
+    color: $text_2nd_color;
 }
 
 .text_a6a6a6 {
-    color: #a6a6a6;
+    color: $text_color;
 }
 
 .text_white {
@@ -229,11 +237,11 @@
 }
 // BACKGROUND
 .bg_ff4612 {
-    background-color: #ff4612;
+    background-color: $bg_color;
 }
 
 .bg_f9f9f9 {
-    background-color: #f9f9f9;
+    background-color: $bg_2nd_color;
 }
 
 .bg_orange {
@@ -269,7 +277,7 @@
 }
 // HR
 .little_hr {
-    border: 2px solid #ff4612;
+    border: 2px solid $bg_color;
     border-radius: 10px;
 }
 // OVERFLOW
@@ -298,8 +306,8 @@
 }
 
 .btn_orange {
-    background-color: #ff4612;
-    border: 1px solid #ff4612;
+    background-color: $bg_color;
+    border: 1px solid $bg_color;
     color: white;
 }
 
@@ -307,4 +315,5 @@
     border: 1px solid black;
     color: black;
 }
+
 
