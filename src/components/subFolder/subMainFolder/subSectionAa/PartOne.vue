@@ -1,6 +1,6 @@
 <template>
 <!-- components -> subFolder -> subMainFolder -> subSectionAacc -> PartOne.vue -->
-    <div class="part_one_1st_div bg_white py_50">
+    <div class="part_one_1st_div bg_white py_50 k">
         <div class="part_one_1st_div__container1">
             <h2 class="text_capitalize">
                 our specialities<span class="text_ff4612">.</span>
@@ -78,5 +78,15 @@ export default {
         @include displayFlexBasic(flex, column, center, center);
         text-align: center;
     }
+}
+
+.k {
+    position: relative;
+}
+
+.o {
+    position: absolute;
+    bottom: 0;
+    right: -50px;
 }
 </style>

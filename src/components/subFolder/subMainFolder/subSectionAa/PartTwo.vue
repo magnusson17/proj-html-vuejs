@@ -49,7 +49,12 @@ export default {
 }
 
 .part_two_1st_div__container2__link_and_signiature {
-    @include displayFlexBasic(flex, row, space-between, center)
+    @include displayFlexBasic(flex, row, space-between, center);
+    div {
+        i:hover {
+            color: $text_3rd_color;
+        }
+    }
 }
 
 .part_two_1st_div__container1 {
