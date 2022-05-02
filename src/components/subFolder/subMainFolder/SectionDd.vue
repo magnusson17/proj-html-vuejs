@@ -1,5 +1,6 @@
 <template>
-    <div class="section_dd_1st_div bg_1e1e1e p_60">
+    <div class="section_dd_1st_div bg_1e1e1e p_150">
+
         <div class="section_dd_1st_div__row">
 
             <div @click="lessIndexBe()" class="text_white">
@@ -7,8 +8,7 @@
             </div>
 
             <div class="section_dd_1st_div__row__col w_50">
-                <!-- <img :src='`../../../assets/img/${testimonials[indexBe].img}`' alt="img"> -->
-                <img src="../../../assets/img/h3-img-04.png" alt="img" class="mb_10">
+                <img :src="require(`../../../assets/img/${testimonials[indexBe].img}`)" alt="img" class="pb_20">
                 <h4 class="text_white text_capitalize">
                     {{this.testimonials[this.indexBe].name}}
                 </h4>

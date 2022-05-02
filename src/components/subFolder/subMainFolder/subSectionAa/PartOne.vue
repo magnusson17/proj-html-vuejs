@@ -16,11 +16,10 @@
             v-for="(element, index) in ourSpecialitiesArray" 
             :key="index"
             class="p_20">
-                <!-- <img :src='`../../../../assets/img/${element.img}`' alt="img"> -->
-                <img src='../../../../assets/img/svg-2.svg' alt="img">
-                <h6>
+                <img :src="require(`../../../../assets/img/${element.img}`)" alt="img">
+                <h4 class="text_capitalize">
                     {{element.name}}
-                </h6>
+                </h4>
                 <span class="text_a6a6a6">
                     {{element.content}}
                 </span>
@@ -78,9 +77,6 @@ export default {
     div {
         @include displayFlexBasic(flex, column, center, center);
         text-align: center;
-        h6 {
-            text-transform: capitalize;
-        }
     }
 }
 </style>

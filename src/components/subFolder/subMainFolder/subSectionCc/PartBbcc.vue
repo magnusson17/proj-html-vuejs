@@ -16,7 +16,7 @@
         <div class="part_bbcc_1st_div__container2">
             <div class="part_bbcc_1st_div__container2__row">
                 <div v-for="(element, index) in latestNewsArray" :key="index" class="w_25 p_20">
-                    <img src="../../../../assets/img/h1-blog-img-01.jpg" alt="img" class="w_100">
+                    <img :src="require(`../../../../assets/img/${element.img}`)" alt="img" class="w_100">
                     <p class="fs_0_6em text_a6a6a6 text_capitalize">
                         <i class="fa-regular fa-clock text_ff4612"></i>
                         {{element.date.number}},{{element.date.month}},{{element.date.year}},
