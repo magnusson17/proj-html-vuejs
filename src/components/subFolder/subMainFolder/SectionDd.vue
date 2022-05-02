@@ -1,5 +1,8 @@
 <template>
-    <div class="section_dd_1st_div bg_1e1e1e p_150">
+    <div class="section_dd_1st_div bg_1e1e1e pb_150 px_150">
+        <h2 class="fs_6em w_100 text_center text_capitalize m_0">
+            testimonials.
+        </h2>
 
         <div class="section_dd_1st_div__row">
 
@@ -88,6 +91,8 @@ export default {
 
 .section_dd_1st_div__row {
     @include displayFlexBasic(flex, row, space-between, center);
+    // @include backgroundBasic(no-repeat, cover, start);
+    // background-image: url('../../../assets/img/testimonials.png')
 }
 
 .section_dd_1st_div__row__col {

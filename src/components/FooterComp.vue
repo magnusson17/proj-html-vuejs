@@ -24,7 +24,7 @@
                 <div class="w_10">
                     <hr class="little_hr w_100">
                 </div>
-                <ul>
+                <ul class="marker">
                     <!-- <i class="fa-brands fa-twitter"></i> -->
                     <li>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum perspiciatis delectus omnis doloribus nemo libero non minima! Magnam magni, sunt ratione minus hic officia provident. Illo sunt adipisci iste esse.
@@ -114,9 +114,18 @@ export default {
         }
 }
 
-// li::marker {
-//     font-family: "Font Awesome 5 Free";
-//     font-weight: 400;
-//     content: "\f099";
-// }
+.marker {
+    padding-left: 0px;
+    margin-left: 1em;
+    li::marker {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 400;
+        content: "\23";
+        color: $text_2nd_color;
+    }
+
+    li {
+        padding-top: 5px;
+    }
+}
 </style>
