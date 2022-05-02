@@ -71,13 +71,23 @@
                 <div class="text_ff4612">
                     <p>
                         <i class="fa-solid fa-location-dot"></i>
+                        <span class="text_white"> Vaduz, FL</span>
                     </p>
                     <p>
                         <i class="fa-solid fa-phone"></i>
+                        <span class="text_white"> 031 123456789</span>
                     </p>
                     <p>
                         <i class="fa-solid fa-envelope"></i>
+                        <span class="text_white"> ugo@gmail.com</span>
                     </p>
+
+                    <form action="" class="footer_comp_form">
+                        <input type="text" placeholder="Your name" class="">
+                        <button class="text_white text_uppercase">
+                            subscribe
+                        </button>
+                    </form>
                 </div>
             </div>
         </div>
@@ -127,5 +137,21 @@ export default {
     li {
         padding-top: 5px;
     }
+}
+
+.footer_comp_form {
+    input {
+        color: white;
+        background-color: transparent;
+        border: none;
+        padding: 5px;
+        margin-right: 5px;
+    }
+    button {
+        background-color: transparent;
+        cursor: pointer;
+    }
+    border-bottom: 1px solid white;
+    @include displayFlexBasic(flex, row, space-between, center)
 }
 </style>
