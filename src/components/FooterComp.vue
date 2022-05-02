@@ -109,9 +109,9 @@ export default {
 .ul_no_style {
     list-style-type: none;
     padding-left: 0px;
-        li {
-            padding-top: 5px;
-        }
+    li {
+        padding-top: 5px;
+    }
 }
 
 .marker {
