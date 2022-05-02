@@ -1,8 +1,18 @@
 <template>
-    <div class="section_ff_1st_div my_60">
+    <div class="section_ff_1st_div py_60 bg_f9f9f9">
         <div class="section_ff_1st_div__row1">
             <div class="section_ff_1st_div__row1__col1 w_40 p_60">
-                <img class="w_100" src="../../../assets/img/h1-contact-rev-01.png" alt="">
+                <div class="p_relative row">
+                    <img class="w_100" src="../../../assets/img/h1-contact-rev-01.png" alt="world">
+                    <div class="pos_absolute p_20 bg_white">
+                        <h4 class="text_capitalize">
+                            new york coaching
+                        </h4>
+                        <h6 class="text_uppercase">
+                            read more
+                        </h6>
+                    </div>
+                </div>
             </div>
 
             <div class="section_ff_1st_div__row1__col2 w_40">
@@ -16,15 +26,15 @@
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas impedit cupiditate quisquam possimus, error praesentium qui labore ipsum? Numquam eveniet ipsa debitis perferendis quae corrupti eligendi quasi facilis harum eos.
                 </p>
                 <form class="w_100 py_20" action="">
-                    <div class="w_100 mb_20">
-                        <input class="d_inline_block w_48" type="text" placeholder="Your name">
-                        <input class="d_inline_block w_48" type="mail" placeholder="Your e-mail">
+                    <div class="w_100 mb_20 row_between">
+                        <input class="d_inline_block w_45" type="text" placeholder="Your name">
+                        <input class="d_inline_block w_45" type="mail" placeholder="Your e-mail">
                     </div>
-                    <input class="d_block w_100 h_60px" type="text" placeholder="Write a message">
+                    <input class="w_100 h_60px" type="textarea" placeholder="Write a message">
+                    <button class="btn_basic btn_orange text_uppercase mt_20">
+                        send <i class="fa-solid fa-arrow-right-long"></i>
+                    </button>
                 </form>
-                <button class="btn_basic btn_orange text_uppercase">
-                    send <i class="fa-solid fa-arrow-right-long"></i>
-                </button>
             </div>
         </div>
 
@@ -92,5 +102,27 @@ form {
 
 .hover:hover .hover_block {
     display: block;
+}
+
+.row {
+    @include displayFlexBasic(flex, row, center, center);
+}
+
+.row_between {
+    @include displayFlexBasic(flex, row, space-between, center);
+}
+
+.pos_absolute {
+    position: absolute;
+    h4, h6 {
+        margin: 0;
+    }
+}
+
+form {
+    input {
+        background-color: transparent;
+        padding: 5px;
+    }
 }
 </style>

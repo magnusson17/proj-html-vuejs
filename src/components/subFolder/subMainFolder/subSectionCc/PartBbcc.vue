@@ -16,7 +16,13 @@
         <div class="part_bbcc_1st_div__container2">
             <div class="part_bbcc_1st_div__container2__row">
                 <div v-for="(element, index) in latestNewsArray" :key="index" class="w_25 p_20">
-                    <img :src="require(`../../../../assets/img/${element.img}`)" alt="img" class="w_100">
+                    <div class="p_relative mb_50">
+                        <img :src="require(`../../../../assets/img/${element.img}`)" alt="img" class="w_100">
+                        <span class="text_capitalize pos_absolute p_10 bg_ff4612 text_white fs_0_8em">
+                            <i class="fa-solid fa-tag"> </i> business, leading
+                        </span>
+                    </div>
+
                     <p class="fs_0_6em text_a6a6a6 text_capitalize">
                         <i class="fa-regular fa-clock text_ff4612"></i>
                         {{element.date.number}},{{element.date.month}},{{element.date.year}},
@@ -75,7 +81,7 @@ export default {
                     },
                     reporter: 'papu gomez'
                 },
-            ]
+            ],
         }
     }
 }
@@ -95,5 +101,11 @@ export default {
 
 .row {
     @include displayFlexBasic(flex, column, center, center);
+}
+
+.pos_absolute {
+    position: absolute;
+    bottom: -10px;
+    right: 10px;
 }
 </style>
